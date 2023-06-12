@@ -20,6 +20,11 @@ body.signin {
 	padding:0;
 	background:0 0
 }
+
+.signinpanel .logopanel h1 {
+	width: 40px;
+}
+
 .signinpanel .signin-info ul {
 	list-style:none;
 	padding:0;
@@ -52,7 +57,7 @@ body.signin {
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
 	border-radius:3px;
-	padding:30px
+	padding:30px;
 }
 .signup-footer {
 	border-top:solid 1px rgba(255,255,255,.3);
