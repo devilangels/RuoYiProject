@@ -3,8 +3,8 @@
         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ruoyi</groupId>
-    <artifactId>ruoyi</artifactId>
+    <groupId>com.sdn</groupId>
+    <artifactId>sdn</artifactId>
     <version>4.7.7</version>
 
     <name>ruoyi</name>
@@ -150,36 +150,36 @@
 
             <!-- 定时任务-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-quartz</artifactId>
+                <groupId>com.sdn</groupId>
+                <artifactId>sdn-quartz</artifactId>
                 <version>${ruoyi.version}</version>
             </dependency>
 
             <!-- 代码生成-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-generator</artifactId>
+                <groupId>com.sdn</groupId>
+                <artifactId>sdn-generator</artifactId>
                 <version>${ruoyi.version}</version>
             </dependency>
 
             <!-- 核心模块-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-framework</artifactId>
+                <groupId>com.sdn</groupId>
+                <artifactId>sdn-framework</artifactId>
                 <version>${ruoyi.version}</version>
             </dependency>
 
             <!-- 系统模块-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-system</artifactId>
+                <groupId>com.sdn</groupId>
+                <artifactId>sdn-system</artifactId>
                 <version>${ruoyi.version}</version>
             </dependency>
 
             <!-- 通用工具-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common</artifactId>
+                <groupId>com.sdn</groupId>
+                <artifactId>sdn-common</artifactId>
                 <version>${ruoyi.version}</version>
             </dependency>
 
@@ -187,12 +187,12 @@
     </dependencyManagement>
 
     <modules>
-        <module>ruoyi-admin</module>
-        <module>ruoyi-framework</module>
-        <module>ruoyi-system</module>
-        <module>ruoyi-quartz</module>
-        <module>ruoyi-generator</module>
-        <module>ruoyi-common</module>
+        <module>sdn-admin</module>
+        <module>sdn-framework</module>
+        <module>sdn-system</module>
+        <module>sdn-quartz</module>
+        <module>sdn-generator</module>
+        <module>sdn-common</module>
     </modules>
     <packaging>pom</packaging>
 
