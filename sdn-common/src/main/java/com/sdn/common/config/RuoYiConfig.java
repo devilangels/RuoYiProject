@@ -16,7 +16,7 @@ public class RuoYiConfig
     private static String name;
 
     /** 版本 */
-    private static String version;
+//    private static String version;
 
     /** 版权年份 */
     private static String copyrightYear;
@@ -40,15 +40,15 @@ public class RuoYiConfig
         RuoYiConfig.name = name;
     }
 
-    public static String getVersion()
-    {
-        return version;
-    }
-
-    public void setVersion(String version)
-    {
-        RuoYiConfig.version = version;
-    }
+//    public static String getVersion()
+//    {
+//        return version;
+//    }
+//
+//    public void setVersion(String version)
+//    {
+//        RuoYiConfig.version = version;
+//    }
 
     public static String getCopyrightYear()
     {

@@ -61,7 +61,7 @@ public class SwaggerConfig
                 // 作者信息
                 .contact(new Contact(RuoYiConfig.getName(), null, null))
                 // 版本
-                .version("版本号:" + RuoYiConfig.getVersion())
+//                .version("版本号:" + RuoYiConfig.getVersion())
                 .build();
     }
 }
